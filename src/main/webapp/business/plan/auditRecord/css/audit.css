@@ -1,0 +1,72 @@
+/*
+尺寸开始
+*/
+/*面包屑*/
+h1, h2, h3 {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.modal-header h4{
+	margin-top:-5px;
+}
+.uploader{
+	margin-bottom:0px !important;
+}
+.info_table_css{
+	margin-bottom:0px;
+}
+.breadcrumb{
+    padding-top: 25px;
+    padding-left: 7px;
+	height: 20px;
+	margin-bottom: -2px;
+}
+.model_title_margin_top{
+	margin-top:0px;
+}
+.model_title2_margin_top{
+	margin-top:15px;
+}
+/*主界面*/
+#maincontent {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/*工具栏*/
+hr {
+    margin-bottom: 15px;
+}
+
+.btn{
+	font-size:14px;
+}
+/*table表头*/
+.fixed-table-header {
+    font-size: 14px;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+/* 对话框 */
+.modal-header {
+    padding-left: 10px;
+}
+.modal-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* .btn{
+	border-radius: 3px;
+} */
+
+/*
+尺寸结束
+*/
+
+
+
+
+/*颜色开始*/
+
+/*颜色结束*/

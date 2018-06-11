@@ -1,0 +1,234 @@
+			html body{
+			height:100%;
+			overflow: hidden;
+			}
+		    html, body{
+		    padding-top:0px;
+		    }
+		    .container-fluid{
+               padding-left:0px;
+               padding-right:0px;
+		    }
+		     .container-fluid img{
+               height:100%;
+		    }
+		   #first{
+		       position: absolute;
+               top:0px;
+               left:0px;
+               width: 100%;
+               height:64px;
+		    }
+           .container-fluid #first .col-md-12{
+               position: absolute;
+               top:0px;
+               left:0px;
+               width: 100%;
+               height:64px;
+                  
+		    }
+		    
+           .container-fluid #first  .col-md-12 .row .col-md-4{    
+               height:64px;
+		    }
+		   .container-fluid #first  .col-md-12 .row .col-md-4 img{   
+		   	    margin-left:24px;
+		   	    margin-top:10px;
+		        float:left; 
+		    }
+		     .container-fluid #first  .col-md-12 .row .col-md-4 p{ 
+		            margin-top: 26px;
+				    margin-left: 10px;
+				    font-size: 24px;
+				    color: white;
+				    float: left;
+		    }
+		     .container-fluid #first  .col-md-12 .row .col-md-4 span{ 
+				    display: inline-block;
+				    margin-top: 39px;
+				    color: white;
+				    margin-right: 28px;
+		    }
+		       .container-fluid #first .col-md-12 .row .col-md-4 span:last-child{   
+				    margin-right: 0px;
+		    }
+          #row-second{
+      	        position: absolute;
+			    top: 134px;
+			    width: 100%;
+			    height: 380px;
+			    margin-right: -10px;
+			    margin-left: -10px;
+			    color:#FFFFFF;
+          }
+          #row-second .col-md-6 h2{
+          	    font-size:30px;
+			    margin-left: 109px;
+			    margin-top: 89px;
+			    margin-bottom: 30px;
+			    white-space: nowrap!important;
+          }
+           #row-second .col-md-6 h4{
+           	    font-size:14px;
+           	    font-weight: 100;
+			    margin-left: 109px;
+			    white-space: nowrap!important;
+          }
+            #row-second .col-md-6 .login-right{
+           	   width: 300px;
+           	   height:380px;
+           	   margin-top: 10px;
+           	   margin-left:180px; 
+           	   background: white;
+           	   border-radius:10px;
+          }
+           #row-second .col-md-6 .login-right img{
+           	   width: 40px;
+           	   height:40px;
+           	   margin-left: 130px;
+   			   margin-top: 20px;
+   			   margin-bottom: 20px;
+          }
+           #row-second .col-md-6 .login-right h3{
+           	   color: black;
+           	   font-size:17px;
+           	   margin-top: 0px;
+           	   color:#4286E8;
+          }
+         .nav>li>a{
+         	float:left;
+         }
+          
+
+        .nav>li>a:nth-child(1){
+        	position: relative;
+         	margin-left: 52px;
+         	color: #368ae3;
+            border-top-left-radius:4px;
+            border-top-right-radius:4px;
+         }
+        .tab-content{
+         	position: relative;
+         	top: 10px;
+         }
+         .tab-content #tab2Content1{
+         	position: absolute;
+         	z-index:3333;
+         	top:-20px;
+         	left: 0px;
+         	width: 100%;
+
+         }
+       
+         .form-control{
+         	width: 80%;
+         	margin-left:10%; 
+         }
+         #btn-p{
+         	margin-left: 10%;
+         	width: 80%;
+         	border-radius:5px;
+         	background:#3280FC;
+         }
+          #btn-p:hover{         	
+         	background:#145CCD;
+         }
+         #banben{
+         	height:40px;
+         	line-height: 40px;
+         	margin-left:30px; 
+         	color:#999999;
+         }
+         #erweima{
+         	margin-left: 70px!important;
+         	margin-top: 0px!important;
+            margin-bottom: 0px!important;
+         	width: 160px!important;
+         	height: 160px!important;
+         	background: red;
+         }
+        #erweimaimg{
+            position: absolute;
+            top:0px;
+            left:49px;
+            width: 10px!important;
+            height:10px!important;
+            margin-left: 0px!important;
+		    margin-top: 0px!important;
+		    margin-bottom: 0px!important;
+         }
+         #tab2Content2 p{ 
+           margin-top:10px;        
+           font-size: 16px;
+           color:#999999;
+           font-weight: 600;
+         }
+          #tab2Content2 p span{
+           color:#008000;
+         }
+         /* 解决火狐浏览器a链接虚线边框的问题 */
+         a:focus {
+			outline: none;
+			}
+          #row-third{
+      	        position: relative;
+      	        color:white;
+			    bottom: 180px;
+			    width: 100%;
+			    height:20px;
+			    margin-right: auto;
+			    margin-left: auto;
+          }
+          .input-control.has-icon-left > .form-control{
+          	    padding-left: 33px;
+          	    margin-bottom:0px; 
+          	    margin-top: 48px;
+          	    border-radius: 5px;
+          }
+          #inputPasswordExample1{
+          	 padding-left:32px;
+          	 margin-top: -18px;
+          	 margin-bottom:22px;
+          	 border-radius: 5px; 
+          }
+          #zhanghu{
+          	    position: absolute;
+			    left: -94px;
+			    top: 34px;
+			    display: inline-block;
+			    width: 20px!important;
+			    height: 20px!important;
+          }
+           #mima{
+            position: absolute;
+          	top: 88px;
+		    left: -94px;
+		    display: inline-block;
+		    width: 16px!important;
+		    height: 20px!important;
+          }
+       
+              @media (max-width: 1024px) {
+    			 #row-third{
+		          bottom:50px;
+		    }
+		  }
+		   @media (max-width: 1024px) {
+    			#row-second .col-md-6 h4,
+    			#row-second .col-md-6 h2{
+		         margin-left: 60px;
+		    }
+		    #row-second .col-md-6 .login-right{
+		    	margin-left: 120px;
+		       opacity:0.9;
+		    }
+		    .container-fluid .row .col-md-12 .row .col-md-4 p{
+		    	 white-space: nowrap!important;
+		    }
+		    .container-fluid .row .col-md-12 .row .col-md-4 span{
+		    	    margin-right: 35px;
+		    }
+		    #row-second{
+		    	top:97px;
+		    }
+		  } 

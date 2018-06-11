@@ -1,0 +1,49 @@
+ #tip {
+            height: 45px;
+            background-color: #fff;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid #969696;
+            position: absolute;
+            font-size: 12px;
+            right: 10px;
+            bottom: 20px;
+            border-radius: 3px;
+            line-height: 45px;
+        }
+        #panel {
+            position: fixed;
+            background-color: white;
+            max-height: 80%;
+            overflow-y: auto;
+            top: 10px;
+            right: 10px;
+            width: 280px;
+        }
+          #my-list li.my-active {
+        background: blue;
+        color: #fff;
+    }
+     #pickerBox {
+        position: absolute;
+        z-index: 9999;
+        top: 80px;
+        left: -30px;
+        width: 300px;
+    }
+    /**
+     * 非选中时不显示label
+     */
+    
+    .amap-marker-label {
+        display: none;
+    }
+    /**
+     * 选中时的label样式
+     */
+    
+    .amap-marker.my-active .amap-marker-label {
+        display: block;
+        background: blue;
+        color: #fff;
+    }

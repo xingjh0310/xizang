@@ -1,0 +1,75 @@
+/*树形菜单*/
+ #zTreeDiv_dept{
+		position:fixed;
+		max-height:300px;
+		overflow: auto;
+		display: none;
+		background-color: rgb(238,238,238);
+		z-index:10;
+} 
+
+/*主界面*/
+#maincontent {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/*面包屑*/
+h1, h2, h3 {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.modal-header h4{
+	margin-top:-5px;
+}
+.info_table_css{
+	margin-bottom:0px !important;
+}
+.model_title_margin_top{
+	margin-top:0px;
+}
+.model_title2_margin_top{
+	margin-top:15px;
+}
+.uploader{
+	margin-bottom:0px !important;
+}
+.breadcrumb{
+    padding-top: 25px;
+    padding-left: 7px;
+	height: 20px;
+	margin-bottom: -2px;
+}
+/*工具栏*/
+hr {
+    margin-bottom: 15px;
+}
+.btn{
+	font-size:14px;
+}
+/*table表头*/
+.fixed-table-header {
+    font-size: 14px;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+/* 对话框 */
+.modal-header {
+    padding-left: 10px;
+}
+.modal-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* .btn{
+	border-radius: 3px;
+} */
+/* 查询input */
+.question_query_div{
+	max-width:346px;
+}
+/* 上报单位input */
+.question_up_dept_input{
+	width:100px;
+}

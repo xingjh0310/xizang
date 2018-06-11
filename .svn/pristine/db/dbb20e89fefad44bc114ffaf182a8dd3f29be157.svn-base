@@ -1,0 +1,237 @@
+html,body{
+  margin:0px;
+  padding-left:0px;
+  border:0px;
+  background-color: #FCFCFC;
+}
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.container-fluid {
+    padding: 0px;
+    border:0px;
+    margin:0px;
+}
+
+.row-fluid{
+    padding: 0px;
+    border:0px;
+    margin:0px;
+}
+
+#mainmenu {
+    padding: 0px;
+    border:0px;
+    margin:0px;
+    //background-color:red;
+}
+
+#mainmenuleft {
+    padding: 0px;
+    border:0px;
+    margin:0px;
+    //background-color:red;
+}
+
+.breadcrumb{
+	padding-top: 10px;
+	padding-left:15px;
+	height: 30px;
+	margin:0px;
+	//background-color:green;
+}
+.marg{
+	margin-left: -15px;
+}
+.btn-toolbar{
+	padding: 0px;
+	margin:0px;
+	//background-color:red;	
+}
+.btn-group{
+	padding: 0px;
+	margin:0px;
+}
+
+.pager{
+	padding-top: 5px;
+	padding-left:0px;
+	padding-right:0px;
+    padding-bottom:0px;
+    margin:0px;
+	//background-color:blue;		
+}
+
+#tbinfo{
+	padding: 0px;
+	margin:0px;
+	//background-color:yellow;		
+}
+
+.nav-tabs{
+	margin-top: 0px;
+	margin-left:0px;
+	margin-right:0px;
+    margin-bottom:0px;
+	padding-top: 15px;
+	padding-left:0px;
+	padding-right:5px;
+    padding-bottom:0px;
+    //border:0px;
+    //background-color:red;	
+}
+
+
+/*导航条隐藏时的样式，导航缩小后*/
+.navbar-toggle {
+  padding-top: 15px;	
+  //background-color:red;
+}
+
+/*设置导航条样式*/
+/*菜单的样式*/
+.navbar-nav>li>a {
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 16px;
+//font-weight:bold;
+/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+             "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+             SimSun, sans-serif; */
+}
+
+.navbar-nav>li>ul>li>a {
+/* padding-top: 5px;
+padding-bottom: 5px; */
+font-size: 14px;
+
+}
+
+/*导航栏用户信息样式*/
+.navbar-right>li>a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+.navbar-right {
+	padding-right: 30px;
+}
+
+/*公司名称和项目名称样式*/
+.navbar-brand {
+height:  60px;
+padding-top: 20px;
+padding-left:20px;
+font-size : 26px;
+//font-weight:bold;
+}
+
+/*导航高*/
+.navbar {
+min-height: 60px;
+/*  background-color:#D6123E; */
+/*background-image: url("../App_Themes/header.jpg"); */
+}
+
+.navbar-toggle {
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+/*还可以设置按钮上下边距：*/
+/*移动端菜单按钮*/
+.navbar-toggle {
+margin-top: 2px;
+margin-bottom: 2px;
+}
+
+/*垂直线*/
+.divider-vertical {
+  padding:0px;
+  margin-top: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-right: 1px solid #c6c6c6;
+}
+
+ul.ztree {
+	margin-top: 10px;
+	border: 0px solid #617775;
+	background: #f5f5f5;
+	width:98%; 
+	overflow-y:scroll;
+	overflow-x:auto;
+	
+	}
+/* 	汉字省略 */
+.autocut {
+            width:100%;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            -o-text-overflow:ellipsis;
+            -icab-text-overflow: ellipsis;
+            -khtml-text-overflow: ellipsis;
+            -moz-text-overflow: ellipsis;
+            -webkit-text-overflow: ellipsis;
+        }
+ .autocutshort {
+            width:80px;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            -o-text-overflow:ellipsis;
+            -icab-text-overflow: ellipsis;
+            -khtml-text-overflow: ellipsis;
+            -moz-text-overflow: ellipsis;
+            -webkit-text-overflow: ellipsis;
+        }
+/*文字靠右*/
+.fontRight{
+	
+	text-align: right;
+	line-height: 30px;
+	
+}
+/*文字居中*/
+.fontCenter{
+	
+	text-align: center;
+	line-height: 30px;
+	
+}
+/*右侧浮动30*/
+.moveRight{
+	margin-right: -30px;
+}
+/*左侧浮动30*/
+.moveLeft{
+	margin-left: -30px;
+}
+/*底部10*/
+.moveBottom{
+	margin-bottom: 10px;"
+}
+/*宽度230*/
+.inputWidtht{
+	width:230px;
+}
+/*宽度50*/
+.inputWidthf{
+	width:50px;
+}
+.btnMarginLeft{
+	margin-left:0px ! important;
+}
+
+.flowTitleFontSize{
+	font-size:18px;
+}
+
+.tailSaleChartTable thead tr th{
+    vertical-align: middle !important;text-align: center;
+}
+
+
+/****/

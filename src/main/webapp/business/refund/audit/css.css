@@ -1,0 +1,153 @@
+/*尺寸开始*/
+/*面包屑*/
+h1, h2, h3 {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+.breadcrumb {
+	padding-top: 25px;
+	padding-left: 7px;
+	height: 20px;
+	margin-bottom: -2px;
+}
+/*工具栏*/
+hr {
+	margin-bottom: 15px;
+}
+#tbar {
+	margin-left: -5px;
+	margin-bottom: 5px;
+}
+/*详细弹窗小号*/
+.td-label {
+	width: 100px;
+	height: 38px;
+	text-align: right;
+	font-weight: bold;
+	background: #f1f1f1;
+	margin-right: 10px;
+}
+/*详细弹窗大号*/
+.td-label-lg {
+	width: 120px;
+	height: 38px;
+	text-align: right;
+	font-weight: bold;
+	background: #f1f1f1;
+}
+/*label文字距离右侧10px;*/
+.tr-span {
+	margin-right: 10px;
+}
+/*label文字距离左侧10px;*/
+.td-span {
+	text-align: left;
+	margin-left: 10px;
+}
+/*标题*/
+.labe {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+/*标题大*/
+.labe-lg {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+/*编辑底部按钮*/
+.bottom-btn {
+	height: 34px;
+	width: 68px;
+	margin-top: -14px;
+}
+
+.foter {
+	height: 40px;
+	
+}
+.ion-left {
+	margin-right: 4px;
+}
+
+/*尺寸开始*/
+/*面包屑*/
+
+.btn {
+	font-size: 14px;
+}
+/*table表头*/
+.fixed-table-header {
+	font-size: 14px;
+}
+
+/* 对话框 */
+.modal-header {
+	padding-left: 10px;
+	padding-top: 14px;
+}
+
+.modal-body {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*
+尺寸结束
+*/
+.table_lable{
+	width: 100px;
+	text-align: right; 
+	font-weight: bold; 
+	background: #f1f1f1"
+}
+.font_left{
+	text-align: left;
+}
+.modal-body-ms{
+	position: relative;
+    padding: 15px;
+    height: 500px;
+}
+.modal-body-check{
+	position: relative;
+    padding: 15px;
+    height: 480px; overflow:scroll;
+}
+.time-horizontal {  
+    list-style-type: none;  
+    border-top: 1px solid #707070;  
+    max-width: 1000px;  
+    padding: 0px;  
+    margin: 0px;  
+} 
+.time-horizontal li {  
+    float: left;  
+    position: relative;  
+    text-align: center;  
+    width: 20%;  
+    padding-top: 10px;  
+}  
+   
+.time-horizontal li b:before {  
+    content: '';  
+    position: absolute;  
+    top: -7px;  
+    left: 47%;  
+    width: 12px;  
+    height: 12px;  
+    border: 2px solid #4c4c4c;  
+    border-radius: 8px;  
+    background: #4c4c4c;  
+} 
+
+.file-list .file[data-status=uploading] .file-status>.text, .uploader-files .file[data-status=uploading] .file-status>.text{
+	display:none;
+} 
+.file-list .file-status>.text, .uploader-files .file-status>.text{
+	display:inline;
+}
+.file-list, .uploader-files{
+	min-height:36px;
+	max-height:200px;
+	overflow:auto;
+} 
